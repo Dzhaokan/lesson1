@@ -11,7 +11,7 @@ console.log(c)
 const bool = true; // boolean (true/false)
 const bool2 = false;
 
-const obj = { //object {} - объект указывается в фигурных скобках
+const obj = { //object {} - объект указывается в фигурных скобках!
     key: 'value',
     username: 'Kanat',
     data: {
