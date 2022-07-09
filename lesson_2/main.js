@@ -49,4 +49,26 @@ const array = [
 //     i++
 // }
 
-const
+const users = [
+    {
+        username: 'jack',
+        salary: 500
+    },
+    {
+        username: 'john',
+        salary: 5000
+    },
+    {
+        username: 'beka',
+        salary: 10000
+    }
+]
+
+const filteredUsers = users.filter(user => user.salary > 500)
+console.log(filteredUsers)
+// for(let user of users){
+//     if(user.salary > 500){
+//         console.log(user)
+//     }
+// }
+
