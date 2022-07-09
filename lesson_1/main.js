@@ -22,7 +22,7 @@ const obj = { //object {} - объект указывается в фигурн�
 
 // console.log(obj.data.last_name)
 
-const arr = ["Aydana", true, false, 25]
+const arr = ["Aidana", true, false, 25]
 
 console.log(arr[2]);
 
