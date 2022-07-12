@@ -1,25 +1,25 @@
-const array = [
-    {
-        username:'jack',
-        full_name:'jack barbaro'
-    },
-        {
-        username:'jack',
-        full_name:'jack barbaro'
-    },
-        {
-        username:'jack',
-        full_name:'jack barbaro'
-    },
-        {
-        username:'jack',
-        full_name:'jack barbaro'
-    },
-        {
-        username:'jack',
-        full_name:'jack barbaro'
-    }
-]
+// const array = [
+//     {
+//         username:'jack',
+//         full_name:'jack barbaro'
+//     },
+//         {
+//         username:'jack',
+//         full_name:'jack barbaro'
+//     },
+//         {
+//         username:'jack',
+//         full_name:'jack barbaro'
+//     },
+//         {
+//         username:'jack',
+//         full_name:'jack barbaro'
+//     },
+//         {
+//         username:'jack',
+//         full_name:'jack barbaro'
+//     }
+// ]
 // for (let i=0; i < array.length; i++) { //цикл for
 //     console.log(array[i]) //индексы
 // }
@@ -49,26 +49,47 @@ const array = [
 //     i++
 // }
 
-const users = [
-    {
-        username: 'jack',
-        salary: 500
-    },
-    {
-        username: 'john',
-        salary: 5000
-    },
-    {
-        username: 'beka',
-        salary: 10000
-    }
-]
+// const users = [
+//     {
+//         username: 'jack',
+//         salary: 500
+//     },
+//     {
+//         username: 'john',
+//         salary: 5000
+//     },
+//     {
+//         username: 'beka',
+//         salary: 10000
+//     }
+// ]
 
-const filteredUsers = users.filter(user => user.salary > 500)
-console.log(filteredUsers)
+// const filteredUsers = users.filter(user => user.salary > 500)
+// console.log(filteredUsers)
+
 // for(let user of users){
 //     if(user.salary > 500){
 //         console.log(user)
 //     }
 // }
 
+// let num = '*'
+// while (num.length<=7) {
+//     num+='*'
+//     console.log(num)
+// }
+
+// for (let num='*'; num.length<=7; num+='*')
+//     console.log(num)
+
+for (let i=1; i<=100; i++) {
+    if (i % 15 === 0) {
+        console.log('FizzBuzz')
+    } else if (i % 3 === 0) {
+        console.log('Fizz')
+    } else if (i % 5 === 0) {
+        console.log('Buzz')
+    } else {
+        console.log(i)
+    }
+}
