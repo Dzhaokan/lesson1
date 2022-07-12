@@ -73,14 +73,14 @@
 //     }
 // }
 
-// let num = '*'
-// while (num.length<=7) {
-//     num+='*'
-//     console.log(num)
-// }
+let num = '*'
+while (num.length<=7) {
+    num+='*'
+    console.log(num)
+}
 
-// for (let num='*'; num.length<=7; num+='*')
-//     console.log(num)
+for (let num='*'; num.length<=7; num+='*')
+    console.log(num)
 
 for (let i=1; i<=100; i++) {
     if (i % 15 === 0) {
