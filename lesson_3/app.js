@@ -19,7 +19,7 @@
 
 //getFullName(Beka, 19)
 
-// const anonym = function () {
+// const anonym = function () { // функция (анонимная)
 //     console.log("text")
 // }
 //
