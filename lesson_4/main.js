@@ -1,7 +1,7 @@
 const blocks = document.getElementsByClassName("block") //брать элемент по классу
 // console.log(blocks)
 
-const block3 = document.getElementById("block3") // брать элемент по id
+// const block3 = document.getElementById("block3") // брать элемент по id
 // console.log(block3)
 
 // block3.className = "changedClass"; //изменить название класса
@@ -24,5 +24,16 @@ const block3 = document.getElementById("block3") // брать элемент п
 const button = document.getElementById("button")
 const input = document.getElementById("input")
 
-console.log(button)
-console.log(input)
+button.onclick = () => {
+    const div = document.createElement("div")
+    const deleteButton = document.createElement("button")
+    deleteButton.innerText = "delete"
+    const changeButton = document.createElement("button")
+    changeButton.innerText = "change"
+    div.setAttribute("class", "block")
+    div.innerText = input.value
+
+    div.append(deleteButton, changeButton)
+    document.body.append(div)
+    input.value = ""
+}
