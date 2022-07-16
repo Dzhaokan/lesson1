@@ -37,3 +37,4 @@ button.onclick = () => {
     document.body.append(div)
     input.value = ""
 }
+// доделать кнопку delete (удалять текст), change (изменять текст через prompt)
