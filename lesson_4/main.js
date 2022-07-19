@@ -1,4 +1,4 @@
-const blocks = document.getElementsByClassName("block") //брать элемент по классу
+// const blocks = document.getElementsByClassName("block") //брать элемент по классу
 // console.log(blocks)
 
 // const block3 = document.getElementById("block3") // брать элемент по id
@@ -28,6 +28,7 @@ button.onclick = () => {
     const div = document.createElement("div")
     const deleteButton = document.createElement("button")
     deleteButton.innerText = "delete"
+
     const changeButton = document.createElement("button")
     changeButton.innerText = "change"
     div.setAttribute("class", "block")
