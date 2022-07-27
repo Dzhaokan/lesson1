@@ -103,7 +103,7 @@ const shkola = new School(
     'educational',
     'Lomonosova',
     1500,
-    '1000m2',
+    'Mathematical',
     '01.02.1999'
 )
 console.log(shkola)
